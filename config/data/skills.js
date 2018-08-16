@@ -2105,7 +2105,7 @@ module.exports = {
 					}, // M.Human
 					1: {
 						distance: 179.56
-					}, // F.Human	
+					}, // F.Human
 					2: {
 						distance: 173.75
 					}, // M.Helf
@@ -3235,7 +3235,7 @@ module.exports = {
 				pendingStartTime: 1
 			}
 		},
-		11: { // Leaping Strike 
+		11: { // Leaping Strike
 			0: {
 				CC: "extended",
 				length: 2191.25,
@@ -3249,7 +3249,7 @@ module.exports = {
 				noRetry: true
 			}
 		},
-		15: { // Vampiric Blow  
+		15: { // Vampiric Blow
 			'*': { length: 1930 },
 			0: {
 				type: 'charging',
@@ -4817,7 +4817,15 @@ module.exports = {
 			3: true,
 			4: true,
 			5: true,
-			6: { length: 1235 }
+			6: { length: 1235 },
+			10: {
+				length: 433,
+				noInterrupt: [6, '8-6'],
+				forceDelay: 15
+			},
+			11: true,
+			12: true,
+			13: true
 		},
 		9: { // Slow Trap
 			0: {
@@ -6042,7 +6050,7 @@ module.exports = {
 						chain: 5
 					}
 				},
-				chains: { // This supposly has chains ? 
+				chains: { // This supposly has chains ?
 				},
 				noRetry: true
 			},
@@ -6393,7 +6401,7 @@ module.exports = {
 		},
 		/*
 		13: { // Soul Reversemento
-			0: { 
+			0: {
 				length: '', toggle?
 				abnormals: {
 					10151031: { chain: 30 }
@@ -6814,7 +6822,7 @@ module.exports = {
 			'*': {
 				fixedSpeed: 1,
 				length: 1433,
-				//triggerAbnormalOnce: {10152251: 0x7fffffff },				
+				//triggerAbnormalOnce: {10152251: 0x7fffffff },
 				consumeAbnormal: [10152000, 10152001, 10152010, 10152011],
 				noInterrupt: [18]
 			},
@@ -6852,14 +6860,14 @@ module.exports = {
 			}
 		},
 		/*
-		21: { // Command: Recall 
-			0: { 
+		21: { // Command: Recall
+			0: {
 				length: null,
 				consumeAbnormal: [10152010, 10152011]
 			}
 		}
 		22: { // Command: Self-Destruct
-			0: { 
+			0: {
 				length: null,
 				consumeAbnormal: [10152010, 10152011]
 			}
@@ -7128,7 +7136,7 @@ module.exports = {
 			},
 			/*
 			0: 				 -> 1
-				10153001 -> 
+				10153001 ->
 				10153002 -> -> 2
 				10153003 -> -> 2
 				10153004 ->
@@ -8911,10 +8919,10 @@ module.exports = {
 			}
 		},
 		/*18: { // Retaliate
-			0: { 
+			0: {
 				type: 'retaliate',
 				length: 1630,
-				noRetry: true 
+				noRetry: true
 			}
 		},*/
 		19: { // Reclamation

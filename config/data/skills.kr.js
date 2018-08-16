@@ -1077,7 +1077,7 @@ module.exports = {
 			0: {
 				length: 3309.23,
 				distance: 326.55,
-				
+
 				noInterrupt: [1, 3, 4, 8, 9, 10, 12, 13, 16, 17, 19, 21, 22, 29, 34, 36, 37, 39, 40, '41-0', '41-30', 42],
 				chains: {
 					2: 30,
@@ -1650,7 +1650,7 @@ module.exports = {
 				disableOnAbnormal: 425100
 			},
 			0: {
-				
+
 				length: [333.33, 1055, 3121.66],
 				distance: [29.48, 445.52, 0],
 				noInterrupt: [1, 3, 4, 5, 8, 9, 10, 12, 13, 18, 21, 23, 24, 26, 28, 29],
@@ -2105,7 +2105,7 @@ module.exports = {
 					}, // M.Human
 					1: {
 						distance: 179.56
-					}, // F.Human	
+					}, // F.Human
 					2: {
 						distance: 173.75
 					}, // M.Helf
@@ -3245,7 +3245,7 @@ module.exports = {
 				pendingStartTime: 1
 			}
 		},
-		11: { // Leaping Strike 
+		11: { // Leaping Strike
 			0: {
 				CC: "extended",
 				length: 2191.25,
@@ -3259,7 +3259,7 @@ module.exports = {
 				noRetry: true
 			}
 		},
-		15: { // Vampiric Blow  
+		15: { // Vampiric Blow
 			'*': { length: 1930 },
 			0: {
 				type: 'charging',
@@ -3639,7 +3639,7 @@ module.exports = {
 					31: 30
 				}
 			},
-			1: { 
+			1: {
 				abnormalChains: { 401404: 31 },
 				chains: {
 					1: 31,
@@ -3651,7 +3651,7 @@ module.exports = {
 					30: 31,
 					31: 31,
 					32: 31
-				}	
+				}
 			},
 			30: { length: 960 },
 			31: { length: 960 }
@@ -4861,6 +4861,20 @@ module.exports = {
 			},
 			6: {
 				length: 1235
+			},
+			10: {
+				length: 433,
+				noInterrupt: [6, '8-6'],
+				forceDelay: 15
+			},
+			11: {
+				length: 700
+			},
+			12: {
+				length: 700
+			},
+			13: {
+				length: 700
 			}
 		},
 		9: { // Slow Trap
@@ -6075,7 +6089,7 @@ module.exports = {
 						chain: 5
 					}
 				},
-				chains: { // This supposly has chains ? 
+				chains: { // This supposly has chains ?
 				},
 				noRetry: true
 			},
@@ -6426,7 +6440,7 @@ module.exports = {
 		},
 		/*
 		13: { // Soul Reversemento
-			0: { 
+			0: {
 				length: '', toggle?
 				abnormals: {
 					10151031: { chain: 30 }
@@ -6911,7 +6925,7 @@ module.exports = {
 			'*': {
 				fixedSpeed: 1,
 				length: 1433,
-				//triggerAbnormalOnce: {10152251: 0x7fffffff },				
+				//triggerAbnormalOnce: {10152251: 0x7fffffff },
 				consumeAbnormal: [10152000, 10152001, 10152010, 10152011],
 				noInterrupt: [18]
 			},
@@ -6953,14 +6967,14 @@ module.exports = {
 			}
 		},
 		/*
-		21: { // Command: Recall 
-			0: { 
+		21: { // Command: Recall
+			0: {
 				length: null,
 				consumeAbnormal: [10152010, 10152011]
 			}
 		}
 		22: { // Command: Self-Destruct
-			0: { 
+			0: {
 				length: null,
 				consumeAbnormal: [10152010, 10152011]
 			}
@@ -7324,7 +7338,7 @@ module.exports = {
 			},
 			/*
 			0: 				 -> 1
-				10153001 -> 
+				10153001 ->
 				10153002 -> -> 2
 				10153003 -> -> 2
 				10153004 ->
@@ -9107,10 +9121,10 @@ module.exports = {
 			}
 		},
 		/*18: { // Retaliate
-			0: { 
+			0: {
 				type: 'retaliate',
 				length: 1630,
-				noRetry: true 
+				noRetry: true
 			}
 		},*/
 		19: { // Reclamation
