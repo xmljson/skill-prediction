@@ -1,5 +1,5 @@
 /*
-Note: If you can't find a specific skill on these list that probably means the preset file is outdated. 
+Note: If you can't find a specific skill on these list that probably means the preset file is outdated.
 To update it just delete it and restart proxy, let it update and it will be done.
 If after following this process skills are still missing do report it on discord or an issue in github, links to both can be found in the readme.pdf file.
 */
@@ -76,7 +76,7 @@ module.exports = {
 		28: true, // Super Leap
 		29: true, // Guardian's Barrier
 		30: true, // Divine Protection
-		910: true, // Apex Urgency 
+		910: true, // Apex Urgency
 	},
 	2: { // Slayer
 		"enabled": true,
@@ -136,8 +136,8 @@ module.exports = {
 		32: true, // Punishing Strike
 		// Awakening
 		33: true, // Unleash
-		34: true, // Unleash: Dexter
-		35: true, // Unleash: Sinister
+		34: false, // Unleash: Dexter
+		35: false, // Unleash: Sinister
 		36: true, // Unleash: Rampage
 		37: true, // Unleash: Beast Fury
 		910: true, // Apex Urgency
